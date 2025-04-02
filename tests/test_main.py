@@ -3,8 +3,7 @@ import datetime
 import sys
 
 import pytest
-
-from src.main import valid_date, parse_args  # Import the valid_date and parse_args functions
+from src.main import parse_args, valid_date
 
 
 class TestArgParser:
