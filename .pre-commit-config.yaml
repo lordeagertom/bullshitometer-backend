@@ -11,10 +11,10 @@ repos:
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-added-large-files
-#      - id: no-commit-to-branch
-#        args:
-#          - --branch
-#          - main
+      - id: no-commit-to-branch
+        args:
+          - --branch
+          - main
 
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.15.0
