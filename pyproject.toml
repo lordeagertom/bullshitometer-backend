@@ -1,0 +1,16 @@
+[project]
+name = "bullshitometer-backend"
+version = "0.1.0"
+description = "Scans transcripts to find statements/predictions which can be assessed against reality"
+authors = [
+    {name = "Eager Tom",email = "lord.eager.tom@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
